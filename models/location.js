@@ -11,6 +11,6 @@ const geoSchema=new mongoose.Schema({
 });
 
 module.exports=mongoose.model('location',new mongoose.Schema({
-  count:Number
+  count:Number,
   geometry:geoSchema
 }));
